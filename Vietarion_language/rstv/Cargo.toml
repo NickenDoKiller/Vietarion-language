@@ -1,0 +1,17 @@
+[package]
+name = "rstv"
+authors = ["nickendokiller@gmail.com"]
+version = "0.1.0"
+edition = "2024"
+description = "Rust nhưng Tiếng Việt và cắt bớt từ khóa"
+license = "MIT"
+repository = "https://github.com/nickendokiller/rstv" # Link repo GitHub của mày
+keywords = ["dsl", "macro", "rstv", "rust-vn", "rust-vietnam"]
+categories = ["development-tools::procedural-macro-helpers"]
+[lib]
+proc-macro = true  # <--- Dòng này kích hoạt chế độ God Mode
+
+[dependencies]
+syn = { version = "2.0", features = ["full", "extra-traits"] } # Để hiểu code Rust
+quote = "1.0"       # Để viết lại code Rust
+proc-macro2 = "1.0" # Để xử lý Token
