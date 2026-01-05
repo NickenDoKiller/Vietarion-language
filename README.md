@@ -22,4 +22,5 @@ fn main() {
 Trong đó:
 
 - tb ứng với "tạo biến" và tb == let
+
 Tôi sẽ tiếp tục phát triển tiếp 😌
